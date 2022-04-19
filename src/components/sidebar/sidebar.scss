@@ -1,0 +1,27 @@
+.app__sidebar {
+    flex: 1;
+    border-right: 0.5px solid red;
+    min-height: 100vh;
+    background-color: white;
+
+    .app__sidebar-top {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .app__sidebar-logo {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    hr {
+        height: 0;
+        border: 0.5px solid red;
+    }
+
+    .app__sidebar-center {
+        padding-left: 10px;
+    }
+}
