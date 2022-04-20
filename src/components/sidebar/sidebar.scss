@@ -23,5 +23,59 @@
 
     .app__sidebar-center {
         padding-left: 10px;
+
+        .app__sidebar-title {
+            font-size: 10px;
+            font-weight: 700;
+            color: #343332;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(55, 168, 212);
+            }
+
+            .app__sidebar-icon {
+                font-size: 18px;
+                color: cadetblue;
+            }
+
+            span {
+                font-size: 13px;
+                font-weight: 700;
+                color: gray;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .app__sidebar-bottom {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .app__sidebar-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid plum;
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1) {
+                background-color: whitesmoke;
+            }
+
+            &:nth-child(2) {
+                background-color: black;
+            }
+        }
     }
 }
