@@ -20,7 +20,6 @@ const Sidebar = () => {
                     Admin
                 </span>
             </div>
-            <hr />
             <div className='app__sidebar-center'>
                 <ul>
                     <p className='app__sidebar-title'>MAIN</p>
