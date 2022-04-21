@@ -11,8 +11,10 @@ const Home = () => {
             <div className='app__home-wrapper'>
                 <Navbar />
                 <div className='app__home-widgets'>
-                    <Widget />
-                    <Widget />
+                    <Widget type='user' />
+                    <Widget type='order' />
+                    <Widget type='earning' />
+                    <Widget type='balance' />
                 </div>
             </div>
         </div>

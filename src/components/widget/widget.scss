@@ -42,5 +42,12 @@
                 color: red;
             }
         }
+
+        .app__widget-icon {
+            font-size: 22px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+        }
     }
 }
