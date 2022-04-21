@@ -1,0 +1,46 @@
+.app__widget {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 100px;
+
+    .app__widget-left,
+    .app__widget-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .app__widget-title {
+            font-weight: 700;
+            font-size: 14px;
+            color: gray;
+        }
+
+        .app__widget-counter {
+            font-size: 28px;
+            font-weight: 300;
+        }
+
+        .app__widget-link {
+            font-size: 12px;
+            border-bottom: 1px solid gray;
+        }
+
+        .app__widget-percentage {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+
+            &.positive {
+                color: green;
+            }
+            
+            &.negative {
+                color: red;
+            }
+        }
+    }
+}
